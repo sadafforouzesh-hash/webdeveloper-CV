@@ -156,4 +156,25 @@ footer p {
   section {
     padding: 20px;
   }
+
+}
+@media print {
+
+  body {
+    background: white;
+  }
+
+  header {
+    border-bottom: 1px solid #ccc;
+  }
+
+  section {
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+
+  footer {
+    display: none;
+  }
+
 }
